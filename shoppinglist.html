@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+
+<link href="shoppinglist.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <script>
+ 
+$('#addbutton').click(function( event ){
+	console.log ('#addbutton  was clicked');
+	//do something
+	
+    $('#shoppinglistitems').append("<li></li>"); {
+            };
+});
+
+  </script>
+  
+  
+<meta charset="utf-8">
+<title>Shopping List App</title>
+<link href="shoppinglist.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="parent">
+<div class="main">
+
+<div> 
+<h1> Jessica's Shopping List </h1> 
+</div>
+
+
+<div> 
+<p class="sentence">Enter your item below. Press add to insert additional items. </p>
+<form>
+<input type="text">
+<p> <input type="button" id="addbutton" value="Add"> <input type="button"  id="clearbutton" value="Clear List"> </p>
+</form>
+<hr color="#F70206">
+</div>
+
+<div>
+ <ul id="shoppinglistitems">
+ <li> <hr></li>
+ <li> <hr></li>
+ <li> <hr></li>
+ <li> <hr></li>
+ <li> <hr></li>
+ <li> <hr></li>
+ </ul>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
